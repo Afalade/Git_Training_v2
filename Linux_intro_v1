@@ -1,0 +1,116 @@
+What is Operating System?
+++++++++++++++++++++++++ 
+O.S is a collection of programs that co-ordinates the operation of computer hardware and software.
+ 
+it's an interface between user and the Computer Hardware resources. 
+It manages hardware resources and provides a platform for running application software
+The computer only understands 0's and 1's as Language.
+
+Functions of O.S
+++++++++++++++++
+1. Process mgt
+2. Memory mgt
+3. I/O mgt
+4. Data mgt
+
+Linux Kernel
++++++++++++++
+A set of functions that make up the heart of an O.S.
+It is used to provide an application interface between a program and the physical devices.
+
+Services provided by the Kernel
++++++++++++++++++++++++++++++++
+1. Controls execution of processes
+2. Scheduling processes fairly for executions on the CPU
+3. Initiating memory for an application
+4. File System Management
+5. Device management
+6. Process management
+7. System Calls / Interface: Provides a way for user programs to interact with hardware through system calls (API between user space and kernel space)
+8. Security and Access Control: Manages user authentication and permissions & Enforces access control policies
+
+What is Shell: Its an interface between the user and the kernel.
++++++++++++++
+
+Services provided by the Shell:-
+1. It interpretes all the commands to the kernel
+2.The kernel after processing the the commands gives back to the shell.
+
+To know the available shells: 
+$ cat /etc/shells
+
+To see login shell 
+$ echo $SHELL  
+/bin/bash
+
+To change shell:
+#csh
+#ksh
+
+Types of Shells
+i. BourneAgain shell (bash) 
+ii. Borne shell (bsh)
+iii. korn shell (ksh) -- to write java and php
+iv. c-shell (csh) -- to write c , c++
+v. Tcshell (tsh) -- to write c , c++
+vi. zshell (zsh) -- to write java and php
+   and etc..
+
+
+Types of Operating System.
+++++++++++++++++++++++++++
+1.Single User-Single Tasking Operating System
+2.Single User-Multi Tasking Operating Sytem
+3.Multi User-Multi Tasking Operating System
+
+1.Single User-Single Tasking Operating System - An operating System where only one user can log on to the system and can perform only one task  E.g MS-DOS
+2.Single User-Multi Tasking Operating System - Only one user can log on to the system but can peform multiple tasks at a time, e.g browsing the internet while playing songs. E.g Windows-xp, Windows-7, Windows-8
+3.Multi User-Multi Tasking Operating System- This type of OS provides multiple users to log into the system and also each user can perform various tasks at a time E.g UNIX, Linux, Windows server
+
+LINUX and UNIX features:
++++++++++++++++++++++++
+Its an open source Operating system
+its very secure
+Its Virus Free 
+its portable
+multiuser
+multitasking 
+Scalability
+Reliability - Biggest servers runs on it
+Security - Inbuilt firewalls (iptables)
+Its fast in processing (speed) and etc...
+
+LINUX PRINCIPLES
+-Everything is a File
+-Configuration data Stored in text
+-Small,Single-Purpose program
+-Ability to chain programs together to perform complex tasks.
+-Supports many networking protocols and Configurations
+-Supports wide variety of hardware
+  
+GNU/GPL (General Public License)
+-Primary License for open source
+-Encourages free softwares
+-All enhacements and changes to GPL software must be GPL
+
+LINUX varieties are known as  Distributions or (Distro)
+Examples are:
+Redhat 
+Oracle 
+Fedora
+CentOs
+Ubuntu
+SUSE
+Mandriva
+Kali
+Debian and many more..
+
+
+UNIX varieties are known as FLAVORS
+Examples are:
+Apple Computer’s A/UX 
+SUN Microsystems’ SUN OS and Solaris 
+Hewlett Packard’s HP-UX 
+IBM’s AIX
+BSD 
+
